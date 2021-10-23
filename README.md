@@ -13,7 +13,9 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   $ source .venv/bin/activate
   $ pip install -r requirements.txt
   $ pip install -r test_requirements.txt
-
+  #z makefile
+  $ make depo
+  $ make lint 
   # zobacz
   $ pip list
   ```
@@ -25,7 +27,8 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   ```
   # jako zwykły program
   $ python main.py
-
+  # z makefile
+  $ make run
   # albo:
   $ PYTHONPATH=. FLASK_APP=hello_world flask run
   ```
@@ -33,6 +36,8 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 - Uruchamianie testów (see: http://doc.pytest.org/en/latest/capture.html):
 
   ```
+  # z makefile
+  $ make test
   $ PYTHONPATH=. py.test
   $ PYTHONPATH=. py.test --verbose -s
   ```
