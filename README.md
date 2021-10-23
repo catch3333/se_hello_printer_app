@@ -47,7 +47,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   ```
   ...
 
-  # aktywacja 
+  # aktywacja
   $ source .venv/bin/activate
   ```
 
@@ -57,7 +57,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   # miejsce na twoje notatki
   ```
 
-# Pomocnicze
+
 
 ## Ubuntu
 
