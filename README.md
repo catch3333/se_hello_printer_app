@@ -14,8 +14,8 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   $ pip install -r requirements.txt
   $ pip install -r test_requirements.txt
   #z makefile
-  $ make depo
-  $ make lint 
+  $ make deps
+  $ make lint
   # zobacz
   $ pip list
   ```
@@ -89,3 +89,8 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   $ yum install -y docker-ce
   $ systemctl start docker
   ```
+
+## Deploy do Chmury i Monitorowanie
+
+  Haroku
+  Statuscake
