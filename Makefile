@@ -20,7 +20,7 @@ docker_push: docker_build
 
 deps:
 	pip install -r requirements.txt; \
-	pip install -r test_requirements.txtx
+	pip install -r test_requirements.txt
 
 lint:
 	flake8 hello_world test
